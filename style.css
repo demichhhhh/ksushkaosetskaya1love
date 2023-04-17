@@ -1,0 +1,94 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css';
+
+body {
+ font-family: Arial, sans-serif;
+ font-size: 30px;
+ color: #333;
+ line-height: 1.5;
+ margin: 0;
+ padding: 0;
+}
+
+header {
+ background-color: #f9f9f9;
+ padding: 20px;
+ box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+ font-size: 32px;
+ margin: 0;
+}
+
+nav ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ justify-content: space-between;
+}
+
+nav ul li {
+ margin: 0 10px;
+}
+
+nav ul li a {
+ color: #333;
+ text-decoration: none;
+}
+
+nav ul li a:hover {
+ color: #777;
+}
+
+main {
+ padding: 20px;
+}
+
+section {
+ margin-bottom: 20px;
+}
+
+h2 {
+ font-size: 24px;
+ margin-bottom: 10px;
+}
+
+ul li {
+ padding: 5px 0;
+} 
+
+footer {
+ background-color: #ddd;
+ padding: 10px;
+ text-align: center;
+}
+
+/* Анимации */
+
+.animate__animated {
+   --animate-duration: 1s;
+    --animate-delay: 0s;
+    --animate-iteration: 1;
+}
+
+.animate__fadeInDown {
+ animation-delay: var(--animate-delay);
+ animation-duration: var(--animate-duration);
+ animation-iteration-count: var(--animate-iteration);
+   animation-name: fadeInDown;
+}
+
+.animate__fadeInUp {
+ animation-delay: var(--animate-delay);
+ animation-duration: var(--animate-duration);
+ animation-iteration-count: var(--animate-iteration);
+   animation-name: fadeInUp;
+}
+
+.animate__fadeIn {
+ animation-delay: var(--animate-delay);
+ animation-duration: var(--animate-duration);
+ animation-iteration-count: var(--animate-iteration);
+   animation-name: fadeIn;
+} 
